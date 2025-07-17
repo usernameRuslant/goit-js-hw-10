@@ -7,7 +7,7 @@ export function showDateError() {
     backgroundColor: ' #ef4040;', // ярко-красный фон
     messageColor: '#ffffff', // белый текст
     titleColor: '#ffffff',
-    iconUrl: '../img/x.svg',
+    iconUrl: './img/x.svg',
     iconColor: '#fff',
   });
 }
