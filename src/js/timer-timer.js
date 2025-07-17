@@ -29,10 +29,11 @@ export const timer = {
   stop() {
     clearInterval(this.intervalId);
     refs.inputTimer.disabled = false;
-    this.refs.days.textContent = '00';
-    this.refs.hours.textContent = '00';
-    this.refs.minutes.textContent = '00';
-    this.refs.seconds.textContent = '00';
+
+    refs.timerFields.days.textContent = '00';
+    refs.timerFields.hours.textContent = '00';
+    refs.timerFields.minutes.textContent = '00';
+    refs.timerFields.seconds.textContent = '00';
   },
 };
 
