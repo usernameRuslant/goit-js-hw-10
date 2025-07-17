@@ -1,4 +1,5 @@
 import iziToast from 'izitoast';
+import xIcon from '../img/x.svg';
 
 export function showDateError() {
   iziToast.error({
@@ -7,7 +8,8 @@ export function showDateError() {
     backgroundColor: ' #ef4040;', // ярко-красный фон
     messageColor: '#ffffff', // белый текст
     titleColor: '#ffffff',
-    iconUrl: './img/x.svg',
+    iconUrl: xIcon,
+
     iconColor: '#fff',
   });
 }
