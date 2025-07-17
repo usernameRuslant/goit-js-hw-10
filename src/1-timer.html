@@ -11,18 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/reset.css" />
+
     <link rel="stylesheet" href="./css/1-timer.css" />
   </head>
   <body>
     <main>
       <a class="back" href="./index.html">back</a>
       <div class="container">
-        <input class="date-input" type="text" id="datetime-picker" />
-        <button class="button-input" type="button" data-start disabled>
-          Start
-        </button>
-
+        <div class="wrapper-input">
+          <input class="date-input" type="text" id="datetime-picker" />
+          <button class="button-input" type="button" data-start disabled>
+            Start
+          </button>
+        </div>
         <div class="timer">
           <div class="field">
             <span class="value" data-days>00</span>
