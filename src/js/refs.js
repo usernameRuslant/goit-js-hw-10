@@ -1,4 +1,8 @@
 export const refs = {
+  form: document.querySelector('.form'),
+  delayInput: document.querySelector('input[name="delay"]'),
+  stateRadios: document.querySelectorAll('input[name="state"]'),
+
   inputTimer: document.querySelector('#datetime-picker'),
   timerBtn: document.querySelector('[data-start]'),
   timerFields: {
